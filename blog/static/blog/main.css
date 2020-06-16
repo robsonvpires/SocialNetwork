@@ -1,27 +1,28 @@
 body {
-  background: #fafafa;
-  color: #333333;
+  background: #f7f1f0;
+  color: #F7F1F0;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #A15C38;
 }
 
 ul {
-  margin: 0;
+  margin: #F7F1F0;
 }
 
 .bg-steel {
-  background-color: #d95f41;
+  background-color: #262220;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #A15C38;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: C3A6A0;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -29,23 +30,23 @@ ul {
 }
 
 .content-section {
-  background: #ffffff;
+  background: #262220;
   padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
+  border: 1px solid;
   margin-bottom: 20px;
 }
 
 .article-title {
-  color: #444444;
+  color: #A15C38;
 }
 
 a.article-title:hover {
-  color: #428bca;
+  color: #C3A6A0;
   text-decoration: none;
 }
 
 .article-content {
+  color: #C3A6A0;
   white-space: pre-line;
 }
 
@@ -58,11 +59,11 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #C3A6A0;
 }
 
 .article-metadata a:hover {
-  color: #333;
+  color: #C3A6A0;
   text-decoration: none;
 }
 
