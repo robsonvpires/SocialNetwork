@@ -1,28 +1,28 @@
 body {
-  background: #f7f1f0;
-  color: #F7F1F0;
+  background: white;
+  color: white;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #A15C38;
+  color: black;
 }
 
 ul {
-  margin: #F7F1F0;
+  margin: black;
 }
 
 .bg-steel {
-  background-color: #262220;
+  background-color: #13315C;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #A15C38;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: C3A6A0;
+  color: #4191e1;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -30,23 +30,23 @@ ul {
 }
 
 .content-section {
-  background: #262220;
+  background: white;
   padding: 10px 20px;
   border: 1px solid;
   margin-bottom: 20px;
 }
 
 .article-title {
-  color: #A15C38;
+  color: black;
 }
 
 a.article-title:hover {
-  color: #C3A6A0;
+  color: gray;
   text-decoration: none;
 }
 
 .article-content {
-  color: #C3A6A0;
+  color: black;
   white-space: pre-line;
 }
 
@@ -59,11 +59,11 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #C3A6A0;
+  border-bottom: 1px solid gray;
 }
 
 .article-metadata a:hover {
-  color: #C3A6A0;
+  color: #13315C;
   text-decoration: none;
 }
 
