@@ -1,10 +1,10 @@
 body {
   background: white;
-  color: white;
+  color: grey;
   margin-top: 5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   color: black;
 }
 
@@ -30,7 +30,7 @@ ul {
 }
 
 .content-section {
-  background: white;
+  color:grey;
   padding: 10px 20px;
   border: 1px solid;
   margin-bottom: 20px;
@@ -46,7 +46,7 @@ a.article-title:hover {
 }
 
 .article-content {
-  color: black;
+  color: grey;
   white-space: pre-line;
 }
 
@@ -82,4 +82,9 @@ a.article-title:hover {
 
 .account-heading {
   font-size: 2.5rem;
+
+
+.form-group{
+  color:grey;
+  background:red;
 }

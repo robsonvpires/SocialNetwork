@@ -1,14 +1,16 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
+from django.shortcuts import render, redirect
 from django.views.generic import (
     ListView,
     DetailView,
     CreateView,
     UpdateView,
-    DeleteView
+    DeleteView,
 )
 from .models import Post
+from django.db.models import Q
 
 
 def home(request):
@@ -74,6 +76,14 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         if self.request.user == post.author:
             return True
         return False
+
+
+def search(request):
+
+    if request.method == 'GET':
+        search_results = request.GET.get('search')
+        search_post = Post.objects.all().filter(content__contains=search_results)
+        return render(request, 'blog/search.html', {'search_post': search_post})
 
 
 def about(request):
